@@ -47,6 +47,13 @@ public class LessonOne {
         passes a student if their grade is > 70, and
         fails a student if their grade is < 70
          */
+        int studGrade = 60;
+
+        if (studGrade >= 70){
+            System.out.println("You passed!");
+        } else if (studGrade < 70){
+            System.out.println("You failed!!!");
+        }
 
     }
 }
